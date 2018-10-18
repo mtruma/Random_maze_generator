@@ -1,9 +1,9 @@
 #include<iostream>
 #include<stdlib.h>
-//#include<windows.h>
+#include<windows.h>
 #include "rlutil.h"
 
-//void clearScreen(); 
+void clearScreen(); 
 
 using namespace std;
 
@@ -85,8 +85,9 @@ int main()
         }
 		/*Print maze*/ 
 
-        //clearScreen();
-		system("clear");
+	Sleep(500);
+        clearScreen();
+	//system("clear");
         for (int i=0; i<size; i++)
         {
             for (int j=0; j<size; j++)
@@ -113,7 +114,7 @@ int main()
     return 0;
 }
 
-/*void clearScreen()
+void clearScreen()
 {
     HANDLE hOut;
     COORD Position;
@@ -123,6 +124,6 @@ int main()
     Position.X = 0;
     Position.Y = 0;
     SetConsoleCursorPosition(hOut, Position);
-}*/
+}
 
 
