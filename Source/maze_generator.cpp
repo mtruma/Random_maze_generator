@@ -11,6 +11,7 @@ int main()
 {
 	/*Init size of maze*/
     int size;
+    cout<<"Enter size of maze: ";
     cin>>size;
 	int maze[size][size];
 
