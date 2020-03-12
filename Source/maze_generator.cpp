@@ -283,6 +283,7 @@ void printMaze(const std::vector<std::vector<unsigned int>> &maze_fields, const 
         std::cout<<std::endl;
     }	
 }
+// Clear console on windows
 #ifdef _WIN32
 void clearConsole()
 {
