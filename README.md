@@ -1,9 +1,12 @@
 # Random_maze_generator
 
-Instructions:
+**Instructions:**
 
 Windows:
-  Add in project of any IDE program and compile.
+<br>
+  -Add in project of any IDE program and compile.
+<br>
 Linux:
-  Add in project of any IDE program and compile or in terminal using this command:
-  "g++ -o maze maze_generator.cpp"
+<br>
+  -Add in project of any IDE program and compile or in terminal using this command:
+  "g++ -o maze maze_generator.cpp" or if you prefer clang: "clang++ -o maze maze_generator.cpp"
