@@ -13,6 +13,7 @@
  *  4. Loop through 2 and 3 steps until there is no visited field.
  *
  *  Author: Muhamed Trumic muhamedtrumic97@gmail.com, March 12 2020.
+ *
  */
 
 #include <iostream>
